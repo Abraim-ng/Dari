@@ -1,12 +1,12 @@
 * {
     margin: 0;
+    
 }
 body {
     background-image: url("/media/Background-home.png");
-    background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: 100%;
+    background-attachment: scroll;
 }
 .nav-bar {
     margin-top: 30px;
@@ -70,6 +70,85 @@ body {
     cursor: pointer;
 }
 
-.check {
-    height: 3000px;
+.hero-page {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.hero-page button{
+    padding: 12px 60px 12px 60px;
+    border: none;
+    background: #4A3AFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F2F2F2;
+    border-radius: 7px;
+}
+.hero-page button i{
+    margin-right: 10px;
+}
+
+.img-reco {
+    width: 360px;
+    height: 173px;
+    border-radius: 7px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-div {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.recommendations{
+    margin: 100px 100px;
+    margin-top: 300px;
+}
+.rec-title h1 {
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 8px;
+
+}
+.rec-title p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+    margin-bottom: 20px;
+}
+.img-div {
+    position: relative;
+}
+.city {
+    position: absolute;
+    left: 15px;
+    top: 140px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
 }
